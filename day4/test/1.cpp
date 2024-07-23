@@ -1,34 +1,33 @@
-#include<bits/stdc++.h>
-#include <cstdio>
+#include<iostream>
 using namespace std;
-int n,m=0,a[2000][2000];
-int main(){
-    int x=0,y=0;
-    //cin >> n;
-    scanf("%d",&n);
-    for(int i = 1;i <= n; i++){
-        for(int j = i+1;j <= n;j++){
-            int x=0;
-            //cin >> x;
-            scanf("%d",&x);
-            a[i][j] = a[j][i] = x;
+int a[100][3];
+bool vis[100];
+int n;
+int cnt;
+void dfs(int x){
+    if(x>n){
+        cnt++;
+        return;
+    }
+    for(int i=0;i<2;i++){
+        if(vis[a[x][i]]==0){
+            vis[a[x][i]]=1;
+            dfs(x+1);
+            vis[a[x][i]]=0;
         }
     }
-    for(int i=1;i<=n;i++){
-        int l=0,r=0;
-        for(int j=1;j<=n;j++){
-            if(a[i][j]>r){
-                l=r;
-                r=a[i][j];
-            }
-            else if(a[i][j]>l){
-                l=a[i][j];
-            }
-        }
-        if(x<l){
-            x=l;y=i;
-        }
-    }
-    //cout <<1 <<endl << x;
-    printf("1\n%d",x);
+
 }
+int main(){
+    cin >> n;
+    for(int i=1;i<=n;i++)cin>>a[i][0]>>a[i][1];
+    dfs(1);
+    cout << cnt;
+}
+
+/*
+1
+1        2
+1   2    1    2
+1 2 1 2  1 2  1 2
+*/
