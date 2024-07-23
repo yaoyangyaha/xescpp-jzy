@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yaoyangyaha/Documents/code/xes/day3/test/2'
+relocations:     []
+...
