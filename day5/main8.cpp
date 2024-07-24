@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-map<int,int> p;//mapï¿½Ä¶ï¿½ï¿½ï¿½
+map<int,int> p;//map?????
 priority_queue<int,vector<int>,greater<int> >q[100010];
 int a[100010];
 int main(){
@@ -18,9 +18,9 @@ int main(){
 			q[k].push(1); 
 		}else{
 			int x=q[j].top();
-			x++;   //ï¿½ï¿½a[i]ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½+1 
-			q[k].push(x);//ï¿½ï¿½ï¿½ï¿½ï¿½a[i]ï¿½ï¿½Î² 
-			q[j].pop();//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½a[i]-1ï¿½ï¿½Î² 
+			x++;   //??a[i]???????????+1 
+			q[k].push(x);//?????a[i]??¦Â 
+			q[j].pop();//??????a[i]-1??¦Â 
 		}
 	}
 	int minn=1e9;
