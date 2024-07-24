@@ -78,4 +78,5 @@ add_executable(xes day0/main.cpp
         day5/main7.cpp
         day5/main6.cpp
         day5/main8.cpp
-        day5/test/2.cpp)
+        day5/test/2.cpp
+        questions/day1.cpp)
