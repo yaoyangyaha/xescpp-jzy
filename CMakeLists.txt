@@ -68,4 +68,13 @@ add_executable(xes day0/main.cpp
         day4/test/1.cpp
         day4/test/2.cpp
         day4/test/3.cpp
-        day4/test/4.cpp)
+        day4/test/4.cpp
+        note/D5.cpp
+        day5/main1.cpp
+        day5/main2.cpp
+        day5/main3.cpp
+        day5/main4.cpp
+        day5/main5.cpp
+        day5/main7.cpp
+        day5/main6.cpp
+        day5/main8.cpp)

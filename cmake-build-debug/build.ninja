@@ -439,6 +439,60 @@ build CMakeFiles/xes.dir/day4/test/4.cpp.o: CXX_COMPILER__xes_unscanned_Debug /U
   OBJECT_DIR = CMakeFiles/xes.dir
   OBJECT_FILE_DIR = CMakeFiles/xes.dir/day4/test
 
+build CMakeFiles/xes.dir/note/D5.cpp.o: CXX_COMPILER__xes_unscanned_Debug /Users/yaoyangyaha/Documents/code/xes/note/D5.cpp || cmake_object_order_depends_target_xes
+  DEP_FILE = CMakeFiles/xes.dir/note/D5.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/xes.dir
+  OBJECT_FILE_DIR = CMakeFiles/xes.dir/note
+
+build CMakeFiles/xes.dir/day5/main1.cpp.o: CXX_COMPILER__xes_unscanned_Debug /Users/yaoyangyaha/Documents/code/xes/day5/main1.cpp || cmake_object_order_depends_target_xes
+  DEP_FILE = CMakeFiles/xes.dir/day5/main1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/xes.dir
+  OBJECT_FILE_DIR = CMakeFiles/xes.dir/day5
+
+build CMakeFiles/xes.dir/day5/main2.cpp.o: CXX_COMPILER__xes_unscanned_Debug /Users/yaoyangyaha/Documents/code/xes/day5/main2.cpp || cmake_object_order_depends_target_xes
+  DEP_FILE = CMakeFiles/xes.dir/day5/main2.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/xes.dir
+  OBJECT_FILE_DIR = CMakeFiles/xes.dir/day5
+
+build CMakeFiles/xes.dir/day5/main3.cpp.o: CXX_COMPILER__xes_unscanned_Debug /Users/yaoyangyaha/Documents/code/xes/day5/main3.cpp || cmake_object_order_depends_target_xes
+  DEP_FILE = CMakeFiles/xes.dir/day5/main3.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/xes.dir
+  OBJECT_FILE_DIR = CMakeFiles/xes.dir/day5
+
+build CMakeFiles/xes.dir/day5/main4.cpp.o: CXX_COMPILER__xes_unscanned_Debug /Users/yaoyangyaha/Documents/code/xes/day5/main4.cpp || cmake_object_order_depends_target_xes
+  DEP_FILE = CMakeFiles/xes.dir/day5/main4.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/xes.dir
+  OBJECT_FILE_DIR = CMakeFiles/xes.dir/day5
+
+build CMakeFiles/xes.dir/day5/main5.cpp.o: CXX_COMPILER__xes_unscanned_Debug /Users/yaoyangyaha/Documents/code/xes/day5/main5.cpp || cmake_object_order_depends_target_xes
+  DEP_FILE = CMakeFiles/xes.dir/day5/main5.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/xes.dir
+  OBJECT_FILE_DIR = CMakeFiles/xes.dir/day5
+
+build CMakeFiles/xes.dir/day5/main7.cpp.o: CXX_COMPILER__xes_unscanned_Debug /Users/yaoyangyaha/Documents/code/xes/day5/main7.cpp || cmake_object_order_depends_target_xes
+  DEP_FILE = CMakeFiles/xes.dir/day5/main7.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/xes.dir
+  OBJECT_FILE_DIR = CMakeFiles/xes.dir/day5
+
+build CMakeFiles/xes.dir/day5/main6.cpp.o: CXX_COMPILER__xes_unscanned_Debug /Users/yaoyangyaha/Documents/code/xes/day5/main6.cpp || cmake_object_order_depends_target_xes
+  DEP_FILE = CMakeFiles/xes.dir/day5/main6.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/xes.dir
+  OBJECT_FILE_DIR = CMakeFiles/xes.dir/day5
+
+build CMakeFiles/xes.dir/day5/main8.cpp.o: CXX_COMPILER__xes_unscanned_Debug /Users/yaoyangyaha/Documents/code/xes/day5/main8.cpp || cmake_object_order_depends_target_xes
+  DEP_FILE = CMakeFiles/xes.dir/day5/main8.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/xes.dir
+  OBJECT_FILE_DIR = CMakeFiles/xes.dir/day5
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target xes
@@ -447,7 +501,7 @@ build CMakeFiles/xes.dir/day4/test/4.cpp.o: CXX_COMPILER__xes_unscanned_Debug /U
 #############################################
 # Link the executable xes
 
-build xes: CXX_EXECUTABLE_LINKER__xes_Debug CMakeFiles/xes.dir/day0/main.cpp.o CMakeFiles/xes.dir/day0/main1.cpp.o CMakeFiles/xes.dir/day0/main2.cpp.o CMakeFiles/xes.dir/day0/main3.cpp.o CMakeFiles/xes.dir/day0/main4.cpp.o CMakeFiles/xes.dir/day1/main.cpp.o CMakeFiles/xes.dir/day1/main1.cpp.o CMakeFiles/xes.dir/day1/main2.cpp.o CMakeFiles/xes.dir/day1/main3.cpp.o CMakeFiles/xes.dir/day1/main4.cpp.o CMakeFiles/xes.dir/day1/main5.cpp.o CMakeFiles/xes.dir/day1/main6.cpp.o CMakeFiles/xes.dir/day1/main7.cpp.o CMakeFiles/xes.dir/day1/main8.cpp.o CMakeFiles/xes.dir/day1/main9.cpp.o CMakeFiles/xes.dir/day1/main10.cpp.o CMakeFiles/xes.dir/day1/main11.cpp.o CMakeFiles/xes.dir/note/D1.cpp.o CMakeFiles/xes.dir/day1/main12.cpp.o CMakeFiles/xes.dir/day1/test/1.cpp.o CMakeFiles/xes.dir/day1/test/2.cpp.o CMakeFiles/xes.dir/day1/test/3.cpp.o CMakeFiles/xes.dir/day1/test/4.cpp.o CMakeFiles/xes.dir/day2/main1.cpp.o CMakeFiles/xes.dir/day2/main2.cpp.o CMakeFiles/xes.dir/day2/main3.cpp.o CMakeFiles/xes.dir/day2/test/1.cpp.o CMakeFiles/xes.dir/note/D2.cpp.o CMakeFiles/xes.dir/day2/main7.cpp.o CMakeFiles/xes.dir/day2/main4.cpp.o CMakeFiles/xes.dir/day3/main1.cpp.o CMakeFiles/xes.dir/day3/main2.cpp.o CMakeFiles/xes.dir/day3/test/1.cpp.o CMakeFiles/xes.dir/note/D3.cpp.o CMakeFiles/xes.dir/day2/main5.cpp.o CMakeFiles/xes.dir/day2/main8.cpp.o CMakeFiles/xes.dir/day2/main6.cpp.o CMakeFiles/xes.dir/day2/main9.cpp.o CMakeFiles/xes.dir/day2/main10.cpp.o CMakeFiles/xes.dir/day3/test/2.cpp.o CMakeFiles/xes.dir/day3/test/3.cpp.o CMakeFiles/xes.dir/day3/test/4.cpp.o CMakeFiles/xes.dir/day3/main3.cpp.o CMakeFiles/xes.dir/day3/main4.cpp.o CMakeFiles/xes.dir/day3/main5.cpp.o CMakeFiles/xes.dir/day3/main6.cpp.o CMakeFiles/xes.dir/day3/main7.cpp.o CMakeFiles/xes.dir/day3/main8.cpp.o CMakeFiles/xes.dir/day3/main9.cpp.o CMakeFiles/xes.dir/day3/main10.cpp.o CMakeFiles/xes.dir/day3/main11.cpp.o CMakeFiles/xes.dir/day3/main12.cpp.o CMakeFiles/xes.dir/day3/main13.cpp.o CMakeFiles/xes.dir/day3/main14.cpp.o CMakeFiles/xes.dir/note/D4.cpp.o CMakeFiles/xes.dir/day4/main1.cpp.o CMakeFiles/xes.dir/day4/main2.cpp.o CMakeFiles/xes.dir/day4/main3.cpp.o CMakeFiles/xes.dir/day4/main4.cpp.o CMakeFiles/xes.dir/day4/main5.cpp.o CMakeFiles/xes.dir/day4/main6.cpp.o CMakeFiles/xes.dir/day4/test/1.cpp.o CMakeFiles/xes.dir/day4/test/2.cpp.o CMakeFiles/xes.dir/day4/test/3.cpp.o CMakeFiles/xes.dir/day4/test/4.cpp.o
+build xes: CXX_EXECUTABLE_LINKER__xes_Debug CMakeFiles/xes.dir/day0/main.cpp.o CMakeFiles/xes.dir/day0/main1.cpp.o CMakeFiles/xes.dir/day0/main2.cpp.o CMakeFiles/xes.dir/day0/main3.cpp.o CMakeFiles/xes.dir/day0/main4.cpp.o CMakeFiles/xes.dir/day1/main.cpp.o CMakeFiles/xes.dir/day1/main1.cpp.o CMakeFiles/xes.dir/day1/main2.cpp.o CMakeFiles/xes.dir/day1/main3.cpp.o CMakeFiles/xes.dir/day1/main4.cpp.o CMakeFiles/xes.dir/day1/main5.cpp.o CMakeFiles/xes.dir/day1/main6.cpp.o CMakeFiles/xes.dir/day1/main7.cpp.o CMakeFiles/xes.dir/day1/main8.cpp.o CMakeFiles/xes.dir/day1/main9.cpp.o CMakeFiles/xes.dir/day1/main10.cpp.o CMakeFiles/xes.dir/day1/main11.cpp.o CMakeFiles/xes.dir/note/D1.cpp.o CMakeFiles/xes.dir/day1/main12.cpp.o CMakeFiles/xes.dir/day1/test/1.cpp.o CMakeFiles/xes.dir/day1/test/2.cpp.o CMakeFiles/xes.dir/day1/test/3.cpp.o CMakeFiles/xes.dir/day1/test/4.cpp.o CMakeFiles/xes.dir/day2/main1.cpp.o CMakeFiles/xes.dir/day2/main2.cpp.o CMakeFiles/xes.dir/day2/main3.cpp.o CMakeFiles/xes.dir/day2/test/1.cpp.o CMakeFiles/xes.dir/note/D2.cpp.o CMakeFiles/xes.dir/day2/main7.cpp.o CMakeFiles/xes.dir/day2/main4.cpp.o CMakeFiles/xes.dir/day3/main1.cpp.o CMakeFiles/xes.dir/day3/main2.cpp.o CMakeFiles/xes.dir/day3/test/1.cpp.o CMakeFiles/xes.dir/note/D3.cpp.o CMakeFiles/xes.dir/day2/main5.cpp.o CMakeFiles/xes.dir/day2/main8.cpp.o CMakeFiles/xes.dir/day2/main6.cpp.o CMakeFiles/xes.dir/day2/main9.cpp.o CMakeFiles/xes.dir/day2/main10.cpp.o CMakeFiles/xes.dir/day3/test/2.cpp.o CMakeFiles/xes.dir/day3/test/3.cpp.o CMakeFiles/xes.dir/day3/test/4.cpp.o CMakeFiles/xes.dir/day3/main3.cpp.o CMakeFiles/xes.dir/day3/main4.cpp.o CMakeFiles/xes.dir/day3/main5.cpp.o CMakeFiles/xes.dir/day3/main6.cpp.o CMakeFiles/xes.dir/day3/main7.cpp.o CMakeFiles/xes.dir/day3/main8.cpp.o CMakeFiles/xes.dir/day3/main9.cpp.o CMakeFiles/xes.dir/day3/main10.cpp.o CMakeFiles/xes.dir/day3/main11.cpp.o CMakeFiles/xes.dir/day3/main12.cpp.o CMakeFiles/xes.dir/day3/main13.cpp.o CMakeFiles/xes.dir/day3/main14.cpp.o CMakeFiles/xes.dir/note/D4.cpp.o CMakeFiles/xes.dir/day4/main1.cpp.o CMakeFiles/xes.dir/day4/main2.cpp.o CMakeFiles/xes.dir/day4/main3.cpp.o CMakeFiles/xes.dir/day4/main4.cpp.o CMakeFiles/xes.dir/day4/main5.cpp.o CMakeFiles/xes.dir/day4/main6.cpp.o CMakeFiles/xes.dir/day4/test/1.cpp.o CMakeFiles/xes.dir/day4/test/2.cpp.o CMakeFiles/xes.dir/day4/test/3.cpp.o CMakeFiles/xes.dir/day4/test/4.cpp.o CMakeFiles/xes.dir/note/D5.cpp.o CMakeFiles/xes.dir/day5/main1.cpp.o CMakeFiles/xes.dir/day5/main2.cpp.o CMakeFiles/xes.dir/day5/main3.cpp.o CMakeFiles/xes.dir/day5/main4.cpp.o CMakeFiles/xes.dir/day5/main5.cpp.o CMakeFiles/xes.dir/day5/main7.cpp.o CMakeFiles/xes.dir/day5/main6.cpp.o CMakeFiles/xes.dir/day5/main8.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/xes.dir
   POST_BUILD = :
