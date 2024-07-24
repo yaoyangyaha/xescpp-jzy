@@ -22,4 +22,6 @@ int main(){
 		ans=(ans+tmp)%mod;
 	}
 	cout << ans;
+	return 0;
 }
+
