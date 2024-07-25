@@ -3,7 +3,7 @@
 具体题目参见这里第四页day x：https://code.xueersi.com/codeUp/entry
 由于部分代码使用DEV-CPP编辑，查看时需要GB2312编码查看
 ## 贡献者（3人）
-###最佳贡献者 jiapx1024
+### 最佳贡献者 jiapx1024
 <a href="https://www.jiapx.cn" tanget="_blank">
   ####  个人网站 https://www.jiapx.cn
 </a>
