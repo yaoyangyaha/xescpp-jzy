@@ -27,4 +27,5 @@ int main(){
 		}
 		if(!flag)cout << -1 <<" ";
 	}
+	return 0；
 }
