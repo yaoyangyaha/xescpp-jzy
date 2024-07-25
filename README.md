@@ -6,6 +6,6 @@
 <a href="https://github.com/yaoyangyaha/xescpp-jzy/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=yaoyangyaha/xescpp-jzy" />
 </a>
-<a href="https://github.com/yaoyangyaha/xescpp-jzy/graphs/contributors">
+<a href="https://www.jiapx.cn">
   <img src="https://avatars.githubusercontent.com/u/123739736?s=400&u=c821a67fd24e4ad8ed52244ff99ec981d0342974&v=4">
 </a>
