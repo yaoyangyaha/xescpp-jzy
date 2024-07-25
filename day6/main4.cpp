@@ -3,7 +3,7 @@
 using namespace std;
 int a[5010][5010],b[5010][5010];
 int n,m,k;
-void xg(int x1,int y1){
+void xg(int x1,int y1,int c){
 	int x2=x1+k-1;
 	int y2=y1+k-1;
 	if(x2>n||y2>n){
@@ -12,14 +12,14 @@ void xg(int x1,int y1){
 	}
 	b[x1][y1]+=c;
 	b[x1][y2+1]-=c;
-	b[x2+1][y1]+=c;
-	b[x2+1][y2+1]-=c;
+	b[x2+1][y1]-=c;
+	b[x2+1][y2+1]+=c;
 }
-int main(){
+signed main(){
     cin >> n >>m >>k;
     for(int i = 1;i<=m;i++){
     	int x,y,z;
-    	scanf("%d%d%d",&x,&y,&z);
+    	scanf("%lld%lld%lld",&x,&y,&z);
     	a[x][y]=z;
 	}
 	int ans=0;
