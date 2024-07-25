@@ -1,38 +1,24 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 #define int long long
 using namespace std;
-int a[5010][5010],b[5010][5010];
-int n,m,k;
-void xg(int x1,int y1,int c){
-	int x2=x1+k-1;
-	int y2=y1+k-1;
-	if(x2>n||y2>n){
-		cout << -1;
-		exit(0);
-	}
-	b[x1][y1]+=c;
-	b[x1][y2+1]-=c;
-	b[x2+1][y1]-=c;
-	b[x2+1][y2+1]+=c;
-}
+int a[100010],b[100010];
 signed main(){
-    cin >> n >>m >>k;
-    for(int i = 1;i<=m;i++){
-    	int x,y,z;
-    	scanf("%lld%lld%lld",&x,&y,&z);
-    	a[x][y]=z;
-	}
-	int ans=0;
-	for(int i = 1;i<=n;i++){
-		for(int j = 1;j<=n;j++){
-			b[i][j]=b[i][j]+b[i-1][j]+b[i][j-1]-b[i-1][j-1];
-			int x = b[i][j]+a[i][j];
-			if(x!=0){
-				ans+=abs(x);
-				xg(i,j,-x);
-			}
-		}
-	}
-	cout << ans;
-	return 0;
+    int n;
+    cin >>n;
+
+    int zs=0,fs=0;
+    for(int i=1;i<=n;i++){
+        cin >>a[i];
+        b[i]=a[i]-a[i-1];
+        if(i>=2){
+            if(b[i]>0){
+                zs+=b[i];
+            }else{
+                fs+=abs(b[i]);
+            }
+        }
+    }
+    cout << max(zs,fs)<<endl;
+    cout <<abs(zs-fs)+1;
+    return 0;
 }
