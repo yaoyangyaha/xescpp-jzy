@@ -1,60 +1,42 @@
-#include <cstring>
-#include <iostream>
-#include <queue>
+#include <bits/stdc++.h>
 using namespace std;
-
-const int MAX_N = 128;
-int map_[MAX_N][MAX_N], dis[MAX_N][MAX_N], ans = 0;
-int dx[] = {0, -1, 0, 1, 1, -1, -1, 1};
-int dy[] = {-1, 0, 1, 0, 1, 1, -1, -1};
-int X, Y, Mx, My;
-
-struct Point {
-    int x, y;
+struct node{
+	int x,y,step;
 };
+int dx[] = {0,0,1,-1,1,1,-1,-1};
+int dy[] = {1,-1,0,0,1,-1,1,-1};
+int mp[128][128],ans=0;
+bool vis[128][128];
+int main(){
+	int  n,m,sx,sy;
+	cin >> n >> m>>sx>>sy;
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=m;j++){
+			char ch;
+			cin >>ch;
+			if(ch=='*')mp[i][j]=1;
+		}
+	}
+	queue<node> q;
+	q.push({sx,sy,0});
+	vis[sx][sy]=1;
+	while(!q.empty()){
+		int x=q.front().x;
+		int y=q.front().y;
+		int step=q.front().step;
+		ans=max(ans,step);
+		q.pop();
+		for(int i=0;i<8;i++){
+			int xx=x+dx[i];
+			int yy=y+dy[i];
+			if(xx>=1&&xx<=n&&yy>=1&&yy<=n&&!vis[xx][yy]&&!mp[xx][yy]){
+				vis[xx][yy]=1;
+				q.push({xx,yy,step+1});
+			}
+		}
+	}
+	cout <<ans;
+	return 0;
 
-void bfs(int sx, int sy) {
-    queue<Point> q;
-    q.push({sx, sy});
-    dis[sx][sy] = 0;
-    
-    while (!q.empty()) {
-        Point cur = q.front();
-        q.pop();
-        
-        ans = max(ans, dis[cur.x][cur.y]);
-        
-        for (int i = 0; i < 8; i++) {
-            int nx = cur.x + dx[i];
-            int ny = cur.y + dy[i];
-            
-            if (nx < 1 || nx > X || ny < 1 || ny > Y || map_[nx][ny] == 1 || dis[nx][ny] != -1) {
-                continue;
-            }
-            
-            dis[nx][ny] = dis[cur.x][cur.y] + 1;
-            q.push({nx, ny});
-        }
-    }
-}
+} 
 
-int main() {
-    cin >> X >> Y >> Mx >> My;
-    
-    memset(dis, -1, sizeof(dis));
-    
-    for (int i = 1; i <= X; i++) {
-        string s;
-        cin >> s;
-        for (int j = 1; j <= Y; j++) {
-            if (s[j-1] == '*') {
-                map_[i][j] = 1;  
-            }
-        }
-    }
-    
-    bfs(Mx, My);
-    
-    cout << ans << endl;
-    return 0;
-}
